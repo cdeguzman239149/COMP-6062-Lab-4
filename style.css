@@ -1,0 +1,17 @@
+h1 {
+    color: #4431c1; /*Blue-ish purple*/
+    font-size: 40px;
+}
+
+fieldset {
+  background-color: #c40c0c; /*Red*/
+  color: white;
+}
+
+legend {
+  background-color: #000000; /*Black*/
+  color: white;
+  padding: 5px 10px;
+}
+
+
