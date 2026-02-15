@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- DocType HTML -->
+<html> <!-- Open html --> 
+    <head> <!-- Open head --> 
+        <title>Week 5</title>
+        <link rel="stylesheet" href="style.css"> <!-- Link to css file --> 
+    </head> <!-- Close head -->
+    <body> <!-- Open Body -->
+        <header>
+            <h1>Star Wars</h1> <!-- My Name -->
+        </header>
+        <main>
+            <form> <!-- Open Form -->
+                <!-- 1st Form: Character Selection -->
+                <fieldset> <!-- Open Fieldset -->
+                    <legend>Choose a Star Wars Character</legend>
+                    <!-- Option to choose a character from the options -->
+                    <label for="character">Choose a character:</label>
+                    <select id="characterSelection">
+                        <option value=""></option> <!-- Starts blank -->
+                        <option value="rex">Captain Rex</option>
+                        <option value="quigon">Qui-Gon Jinn</option>
+                        <option value="kylo">Kylo Ren</option>
+                        <option value="ahsoka">Ahsoka Tano</option>
+                        <option value="boba">Boba Fett</option>
+                    </select>
+                    <div id ="secretBox" hidden> <!-- Initially hidden -->
+                        <input type="checkbox" id="hiddenBox">
+                        <label for="hiddenBox">Join the Dark Side</label>
+                    </div>
+                </fieldset> <!-- Close Fieldset -->
+                <br>
+                <!-- 2nd Form: Enter Confirmation -->
+                <fieldset> <!-- Open Fieldset -->
+                    <legend>Click the Button</legend>
+                    <label for="inputText">Press ENTER in the textbox to confirm selection</label>
+                    <br>
+                    <input type="text" id="inputText">
+                </fieldset> <!-- Close Fieldset -->
+            </form><!-- Close Form -->
+        </main>
+        <script src="script.js"></script> <!-- Link to javascript file -->
+    </body> <!-- Close Body -->
+</html> <!-- Close html -->
